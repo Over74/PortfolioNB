@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio de [Votre nom]</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue</h1>
+    </header>
+
+    <div class="section">
+        <div class="section-title">Ma formation</div>
+        <div class="section-content">
+            <img src="chemin_vers_votre_image.jpg" alt="Image de ma formation" class="section-image">
+            <p>Insérez ici le texte de votre formation.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Mes projets</div>
+        <div class="section-content">
+            <p>Projet 1: Description du projet 1</p>
+            <p>Projet 2: Description du projet 2</p>
+            <p>Projet 3: Description du projet 3</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Mon CV</div>
+        <div class="section-content">
+            <a href="lien_vers_votre_CV.pdf" target="_blank"><button>Voir mon CV</button></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        &copy; [Votre nom]
+    </footer>
+</body>
+</html>
