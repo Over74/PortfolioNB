@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Contactacter</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        div {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 80px; /* Largeur des étiquettes */
+            text-align: right; /* Alignement du texte à droite */
+            margin-right: 10px; /* Marge à droite pour séparer les étiquettes des champs */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: calc(100% - 90px); /* Largeur des champs */
+            margin-bottom: 10px; /* Marge en bas pour séparer les champs */
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+            float: left;
+        }
+        header {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="/images/téléchargement.jpg" alt="Logo" class="logo"></a>
+        <h1>Noa Bisbau</h1>
+        <p>Étudiant BTS Services informatiques aux organisations option B solution logicielles et applications métiers (SIO SLAM)</p>
+    </header>
+
+    <nav>
+        <a href="Qui suis-je.html">Qui suis-je ?</a>
+        <a href="Mes compétences.html">Mes compétences</a>
+        <a href="Mes réalisations.html">Mes réalisations</a>
+        <a href="Veille technologique.html">Ma veille technologique</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <div class="background-image"></div>
+        <div class="content">
+            <h2>Contactez-moi</h2>
+            <form action="envoyer.php" method="post">
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+
+<footer>
+    <p>© 2024 Noa Bisbau. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
